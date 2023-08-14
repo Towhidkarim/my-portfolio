@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       'welcome to my portfolio, where I invite you to explore the culmination of my dedication and passion.',
     images:
-      'https://github.com/Towhidkarim/my-portfolio/blob/master/thumbnail.jpeg?raw=true',
+      'https://raw.githubusercontent.com/Towhidkarim/Timer-App/main/preview.png',
   },
 };
 
@@ -43,7 +43,7 @@ export default function RootLayout({
       <head>
         <link
           rel='shortcut icon'
-          href='https://github.com/Towhidkarim/my-portfolio/raw/master/favicon.ico'
+          href='https://raw.githubusercontent.com/Towhidkarim/my-portfolio/master/favicon.ico'
           type='image/png'
           sizes='any'
         />
