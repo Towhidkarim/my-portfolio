@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       'welcome to my portfolio, where I invite you to explore the culmination of my dedication and passion.',
     images:
-      'https://raw.githubusercontent.com/Towhidkarim/Timer-App/main/preview.png',
+      'https://raw.githubusercontent.com/Towhidkarim/my-portfolio/master/thumbnail.jpeg',
   },
 };
 
