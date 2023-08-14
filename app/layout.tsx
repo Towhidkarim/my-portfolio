@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import LoadingBar from './components/Animable/LoadingBar';
-import favicon from '@/assets/favicon.ico';
+import thumbnail from '@/assets/thumbnail.jpeg';
 import AnimatedCursor from './components/Animable/AnimatedCursor';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -28,7 +28,8 @@ export const metadata: Metadata = {
     title: 'Towhid Karim | Portfolio',
     description:
       'welcome to my portfolio, where I invite you to explore the culmination of my dedication and passion.',
-    images: '/thumbnail.jpeg',
+    images:
+      'https://github.com/Towhidkarim/my-portfolio/blob/master/thumbnail.jpeg?raw=true',
   },
 };
 
@@ -39,14 +40,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      {/* <head>
+      <head>
         <link
           rel='shortcut icon'
-          href='favicon.ico'
-          type='image/x-icon'
+          href='https://github.com/Towhidkarim/my-portfolio/raw/master/favicon.ico'
+          type='image/png'
           sizes='any'
         />
-      </head> */}
+      </head>
       <body className='bg-base-100'>
         <LoadingBar />
         {/* <AnimatedCursor /> */}
